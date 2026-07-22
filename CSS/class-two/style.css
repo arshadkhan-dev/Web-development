@@ -1,0 +1,75 @@
+/* Universal selector */
+* {
+  color: white;
+  font-size: 20px;
+  background-color: blue;
+}
+
+/* class Selector */
+.practice {
+  color: chartreuse;
+}
+
+/* id Selector */
+
+#para {
+  color: tomato;
+  background-color: green;
+}
+
+/* type selector | element selector */
+
+p {
+  background-color: white;
+}
+
+/* child Selector */
+ul > li {
+  color: turquoise;
+  background-color: black;
+}
+
+div > h3 {
+  color: red;
+}
+
+/* Descendent selector */
+div i {
+  color: yellow;
+}
+
+/* Adjecent Sibling Selector  */
+h3 + b {
+  background-color: black;
+}
+
+ol + h4 {
+  color: green;
+  background-color: white;
+}
+
+#div1 + div {
+  font-style: italic;
+}
+
+/* general sibling selector */
+#div1 ~ .lastbox {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* CSS Rules */
+
+/* last rule */
+
+.practice {
+  color: white;
+}
+
+/* specificity */
+h2 {
+  color: darkorange !important;
+}
+
+#practice {
+  color: darksalmon;
+}
